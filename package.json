@@ -1,0 +1,29 @@
+{
+  "name": "products-api",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This is a products api(Backend Project) for my shoppy globe e-commerce website  ",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guree Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^2.5.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "firebase": "^10.14.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0",
+    "multer": "^1.4.5-lts.1",
+    "node": "^20.18.0",
+    "products-api": "file:"
+  }
+}
